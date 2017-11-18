@@ -12,7 +12,5 @@
   }
 
   function destructivelyDeleteFromObjectByKey(object, key){
-newObject = delete object.key
-object= newObject
-return object
-  }
+return delete delete object.key 
+}
